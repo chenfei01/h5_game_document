@@ -25,3 +25,25 @@
    `git init` 进入项目根目录
    
    `git remote add origin git@gitee.com:nuoying_chenfei/WebMarket.git` 添加项目托管网站ssh地址
+   
+   `cat .git/config` 可以查看配置参数
+   
+   `ssh -T git@github.com` 验证SSH连接
+   
+  6. 提交上传代码
+  
+  `git add -A`
+  
+  `git commit -m "first commit"`
+  
+  `git push origin master`
+  
+  **注意：！！！提示（Are you sure you want to continue connecting (yes/no)?）时！！！**
+   
+   **！！！键入yes！！！**
+          
+   **！！！不要按回车！！！**
+          
+   **！！！不要按回车！！！**
+          
+   **！！！不要按回车！！！**
