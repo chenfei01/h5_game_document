@@ -10,3 +10,5 @@
  ### laravel npm安装
  
    `npm install` （前端化管理）
+   
+ ### .env配置数据库相关参数
