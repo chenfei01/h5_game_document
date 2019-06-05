@@ -38,6 +38,10 @@
   
   `git push origin master`
   
+  7. 更新被拒绝
+  
+  `git push -u origin +master` 强行上传
+  
   **注意：！！！提示（Are you sure you want to continue connecting (yes/no)?）时！！！**
    
    **！！！键入yes！！！**
