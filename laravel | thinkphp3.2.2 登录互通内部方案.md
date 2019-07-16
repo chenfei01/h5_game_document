@@ -6,6 +6,8 @@
 
     `SESSION_DOMAIN=.xxxx.com`
     
+    ##### 线上环境暂时勿composer update！！！！！设置session_domain会导致表单crsf 419错误！！！！！！！
+    
 2. 登录后设置自定义cookie，该值为当前登录的session_id：
 
     `Cookie::queue('xxx', $xxx, 60*24*30);`
