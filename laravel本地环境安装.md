@@ -10,3 +10,13 @@
   ### copy .env.example改名为 .env
   
   .env 里配置本地相关数据库参数
+  
+  ### nignx 404 
+  
+  #try_files $uri $uri/ /index.php?$query_string
+  
+  ### laravel 404
+  
+  注意.env配置
+   `APP_URL=http://web.test`
+   `DOMAIN_WEB=http://web.test`
